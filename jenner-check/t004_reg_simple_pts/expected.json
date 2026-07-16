@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-16T06:21:55.231533+00:00",
+  "_captured_run_id": "r_8ab7f712c8244584aa4af7bf43cb8841",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Output dataset residus_PTS written.",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

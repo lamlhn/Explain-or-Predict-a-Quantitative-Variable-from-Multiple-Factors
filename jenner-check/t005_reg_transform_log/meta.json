@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_reg_transform_log",
+  "source_file": "SAE.sas",
+  "source_blob_sha": "3d8fff3c4ce1c7e89018e803a46fbbfdbb73fe3b",
+  "source_commit": "a796202654a81b6ea7d5b06a8ae3bd36b24ffd29",
+  "notes": "Author's dependent-variable transformation block (sqrt, cube root, log of Salaire) plus the log-salary regression with VIF/CLB/R/INFLUENCE run unmodified against 18 mock players."
+}

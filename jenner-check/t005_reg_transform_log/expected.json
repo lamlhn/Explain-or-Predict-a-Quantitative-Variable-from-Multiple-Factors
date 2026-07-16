@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-16T06:21:55.231813+00:00",
+  "_captured_run_id": "r_cff23b7b662f4a6b81876c55b1f3faba",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Output dataset residus_racine_salaire written.",
+    "NOTE: Output dataset residus_racine_AF written."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

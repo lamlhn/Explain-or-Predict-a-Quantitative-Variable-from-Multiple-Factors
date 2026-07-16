@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_means_univariate_freq",
+  "source_file": "SAE.sas",
+  "source_blob_sha": "3d8fff3c4ce1c7e89018e803a46fbbfdbb73fe3b",
+  "source_commit": "a796202654a81b6ea7d5b06a8ae3bd36b24ffd29",
+  "notes": "Author's descriptive-statistics block (PROC MEANS, PROC UNIVARIATE with HISTOGRAM/NORMAL/QQPLOT, PROC FREQ on _CHARACTER_) run unmodified against 18 mock players shaped like TAB_NBA_Final; UNIVARIATE VAR list trimmed from _NUMERIC_ to PTS/Salaire to keep the run focused."
+}

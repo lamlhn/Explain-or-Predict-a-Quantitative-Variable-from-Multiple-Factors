@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_clean_merge",
+  "source_file": "SAE.sas",
+  "source_blob_sha": "3d8fff3c4ce1c7e89018e803a46fbbfdbb73fe3b",
+  "source_commit": "a796202654a81b6ea7d5b06a8ae3bd36b24ffd29",
+  "notes": "PROC IMPORT (two Excel workbooks) substituted with inline DATALINES of the same shape; author's own SALAIRE cleaning (INPUT/COMMA12.), PROC SORT, and MERGE-with-IN= logic run unmodified against 10+10 mock player rows."
+}

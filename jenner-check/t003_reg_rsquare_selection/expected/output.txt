@@ -1,0 +1,54 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                              Dependent Variable: Salaire                                               
+
+Source                 DF         Sum of Squares           Mean Square   F Value    Pr > F
+---------------  --------  ---------------------  --------------------  --------  --------
+Model                  14  966537025862174.75000  69038358990155.35156    294.34    0.0003
+Error                   3     703666226510.70776    234555408836.90259                    
+Corrected Total        17  967240692088685.62500                                          
+
+Root MSE      484309.20788    R-Square            0.9993
+Dependent Mean  28905102.72222    Adj R-Sq            0.9959
+Coeff Var          1.67551
+
+                          Parameter Estimates                           
+
+Variable          DF        Estimate  Standard Error   t Value  Pr > |t|
+----------  --------  --------------  --------------  --------  --------
+Intercept          1  29836939.93558  12210055.31147      2.44    0.0922
+Classement         1     20897.96927     39730.36732      0.53    0.6353
+Age                1    -54455.61576     49630.44836     -1.10    0.3527
+GP                 1     41022.05730     18421.14111      2.23    0.1123
+W                  1      5272.28185     19087.80389      0.28    0.8003
+Min                1    -98146.75350     58909.70614     -1.67    0.1943
+PTS                1    982992.27915    138701.22244      7.09    0.0058
+FGM                1   3017118.49641   1048357.10769      2.88    0.0636
+FGA                1  -1266625.47514    459022.16666     -2.76    0.0702
+FG_                1   -319488.97004    183645.63395     -1.74    0.1803
+_3PM               1   6044776.29807   2270813.21165      2.66    0.0762
+_3PA               1  -2194959.90391    794280.18666     -2.76    0.0699
+_3P_               1   -225683.41412    133878.95800     -1.69    0.1904
+FTM                1   2464957.02825    870613.70472      2.83    0.0661
+FTA                1  -1995118.16225    714279.49103     -2.79    0.0682
+
+                                Selection Method: R-Square Selection                                 
+
+Number in Model  R-Square  Adj R-Sq  Variables in Model                                              
+---------------  --------  --------  ----------------------------------------------------------------
+             14    0.9993    0.9959  classement age gp w min pts fgm fga fg_ _3pm _3pa _3p_ ftm fta  
+             15    0.9993    0.9959  classement age gp w l min pts fgm fga fg_ _3pm _3pa _3p_ ftm fta
+             13    0.9993    0.9968  classement age gp min pts fgm fga fg_ _3pm _3pa _3p_ ftm fta    
+             12    0.9991    0.9971  age gp min pts fgm fga fg_ _3pm _3pa _3p_ ftm fta               
+             11    0.9989    0.9968  gp min pts fgm fga fg_ _3pm _3pa _3p_ ftm fta                   
+             10    0.9982    0.9956  gp min pts fgm fga fg_ _3pm _3pa ftm fta                        
+              9    0.9976    0.9949  gp pts fgm fga _3pm _3pa _3p_ ftm fta                           
+              8    0.9970    0.9943  gp pts fgm fga _3pm _3pa ftm fta                                
+              7    0.9966    0.9942  gp pts fgm fga fg_ _3pm _3pa                                    
+              6    0.9960    0.9939  gp pts fgm fga _3pm _3pa                                        
+              5    0.9950    0.9930  gp pts fgm fga _3p_                                             
+              4    0.9941    0.9923  gp pts fga _3p_                                                 
+              3    0.9935    0.9921  pts fga _3p_                                                    
+              2    0.9918    0.9907  pts fga                                                         
+              1    0.9888    0.9881  pts                                                             
+
