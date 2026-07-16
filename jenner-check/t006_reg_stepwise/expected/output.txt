@@ -1,0 +1,96 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: Ln_Salaire                                             
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   2         1.12975      0.56487    603.34    <.0001
+Error                  15         0.01404      0.00094                    
+Corrected Total        17         1.14379                                 
+
+Root MSE           0.03060    R-Square            0.9877
+Dependent Mean      17.14762    Adj R-Sq            0.9861
+Coeff Var          0.17844
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  16.41586         0.03267    502.52    <.0001
+PTS               1   0.03602         0.00104     34.49    <.0001
+TOV               1  -0.01682         0.00760     -2.21    0.0427
+
+       Summary of Stepwise Selection Selection        
+
+    Step  Variable Entered/Removed  Variable    Pr > F
+--------  ------------------------  --------  --------
+       1  Entered                   pts         <.0001
+       2  Entered                   tov         0.0427
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: Ln_Salaire                                             
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   2         1.12975      0.56487    603.34    <.0001
+Error                  15         0.01404      0.00094                    
+Corrected Total        17         1.14379                                 
+
+Root MSE           0.03060    R-Square            0.9877
+Dependent Mean      17.14762    Adj R-Sq            0.9861
+Coeff Var          0.17844
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  16.41586         0.03267    502.52    <.0001
+PTS               1   0.03602         0.00104     34.49    <.0001
+TOV               1  -0.01682         0.00760     -2.21    0.0427
+
+        Summary of Forward Selection Selection        
+
+    Step  Variable Entered/Removed  Variable    Pr > F
+--------  ------------------------  --------  --------
+       1  Entered                   pts         <.0001
+       2  Entered                   tov         0.0427
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: Ln_Salaire                                             
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   2         1.12975      0.56487    603.34    <.0001
+Error                  15         0.01404      0.00094                    
+Corrected Total        17         1.14379                                 
+
+Root MSE           0.03060    R-Square            0.9877
+Dependent Mean      17.14762    Adj R-Sq            0.9861
+Coeff Var          0.17844
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  16.41586         0.03267    502.52    <.0001
+PTS               1   0.03602         0.00104     34.49    <.0001
+TOV               1  -0.01682         0.00760     -2.21    0.0427
+
+      Summary of Backward Elimination Selection       
+
+    Step  Variable Entered/Removed  Variable    Pr > F
+--------  ------------------------  --------  --------
+       1  Removed                   w           0.8012
+       2  Removed                   l           0.8354
+       3  Removed                   min         0.7106
+       4  Removed                   pf          0.4718
+       5  Removed                   gp          0.6709
+       6  Removed                   ast         0.2488
+       7  Removed                   fga         0.1784
+       8  Removed                   fgm         0.5504
+       9  Removed                   stl         0.0907
+      10  Removed                   blk         0.2537
+      11  Removed                   age         0.0618
+

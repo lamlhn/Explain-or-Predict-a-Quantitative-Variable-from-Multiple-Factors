@@ -1,0 +1,26 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.TAB_NBA_Final
+
+NOTE: Processing inline DATALINES (18 lines)
+
+NOTE: Read 18 rows from DATALINES.
+NOTE: Wrote work.TAB_NBA_Final (18 rows, 30 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.TAB_NBA_Final
+
+
+NOTE: Read 18 rows from work.TAB_NBA_Final.
+NOTE: Wrote work.TAB_NBA_Final (18 rows, 30 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC UNIVARIATE
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_player.spec.json
+NOTE: PROC FREQ statement used.

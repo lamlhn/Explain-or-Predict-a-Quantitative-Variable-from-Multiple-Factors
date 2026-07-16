@@ -1,0 +1,17 @@
+{
+  "_captured_at": "2026-07-16T06:21:55.232031+00:00",
+  "_captured_run_id": "r_f97ca380c174459d980a578ec6beb67d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC REG ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

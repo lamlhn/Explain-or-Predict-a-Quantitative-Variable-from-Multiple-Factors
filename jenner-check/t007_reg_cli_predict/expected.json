@@ -1,0 +1,17 @@
+{
+  "_captured_at": "2026-07-16T06:21:55.232250+00:00",
+  "_captured_run_id": "r_dacd7df782924d9788be8ee9b374bb52",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

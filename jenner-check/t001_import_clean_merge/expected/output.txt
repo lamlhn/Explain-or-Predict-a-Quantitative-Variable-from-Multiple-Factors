@@ -1,0 +1,54 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: work.TAB_Player_CLEAN
+Observations:  10
+Variables:     2
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  Player    Char    200          
+  2  Salaire    Num      8          
+
+-------------------------------------------------------------------------------
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: work.TAB_Stat
+Observations:  10
+Variables:     4
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  AST        Num      8          
+  2  Player    Char    200          
+  3  PTS        Num      8          
+  4  REB        Num      8          
+
+-------------------------------------------------------------------------------
+
+
+  Obs                 Player   Salaire   PTS  REB   AST
+-----  ---------------------  --------  ----  ---  ----
+    1  Damian_Lillard         22031635  15.8  6.1   5.4
+    2  Giannis_Antetokounmpo  28771977    20  9.4   3.2
+    3  Jayson_Tatum           23903149    17  3.4   2.3
+    4  Joel_Embiid            39059817  31.1  7.8   7.2
+    5  Kevin_Durant           35530848  29.3  9.1   2.6
+    6  LeBron_James           20966978  27.4  7.3   6.8
+    7  Luka_Doncic            24576977  16.8  7.4    10
+    8  Nikola_Jokic           20194526  12.9  8.9  10.3
+    9  Stephen_Curry          38379473  31.1  8.3  10.3
+
+  Obs              Player   Salaire   PTS   REB  AST
+-----  ------------------  --------  ----  ----  ---
+    1  Devin_Booker        36937388     .     .    .
+    2  Karl_Anthony_Towns         .  25.2  10.1  4.8
+

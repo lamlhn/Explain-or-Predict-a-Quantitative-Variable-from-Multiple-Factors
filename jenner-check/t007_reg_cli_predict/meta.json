@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_reg_cli_predict",
+  "source_file": "SAE.sas",
+  "source_blob_sha": "3d8fff3c4ce1c7e89018e803a46fbbfdbb73fe3b",
+  "source_commit": "a796202654a81b6ea7d5b06a8ae3bd36b24ffd29",
+  "notes": "Author's TAB_PREVI prediction block (PROC IMPORT of a re-exported shortlist, sqrt/log transforms, three PROC REG .../CLI models) run unmodified against 5 mock players with Salaire already numeric (matching the author's pipeline state at that point, post-cleaning)."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_reg_rsquare_selection",
+  "source_file": "SAE.sas",
+  "source_blob_sha": "3d8fff3c4ce1c7e89018e803a46fbbfdbb73fe3b",
+  "source_commit": "a796202654a81b6ea7d5b06a8ae3bd36b24ffd29",
+  "notes": "Author's PROC REG selection=rsquare best-subsets block run unmodified against 18 mock players; predictor list trimmed from the author's full 29-variable MODEL statement to the first 14 (Classement..FTA) so the best-subsets search completes in reasonable time on this sample (see run log for full-29-variable timing note)."
+}

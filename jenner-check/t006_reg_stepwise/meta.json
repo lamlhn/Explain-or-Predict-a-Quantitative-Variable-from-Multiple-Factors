@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_reg_stepwise",
+  "source_file": "SAE.sas",
+  "source_blob_sha": "3d8fff3c4ce1c7e89018e803a46fbbfdbb73fe3b",
+  "source_commit": "a796202654a81b6ea7d5b06a8ae3bd36b24ffd29",
+  "notes": "Author's stepwise/forward/backward PROC REG model-selection block on Ln_Salaire run unmodified against 18 mock players; predictor list trimmed from the author's Age--Plus_minus range shorthand to 13 named columns to keep the selection well-posed at this sample size."
+}
